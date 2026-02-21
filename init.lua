@@ -573,6 +573,7 @@ Angleur_TempCVars = {
         active = false, cached = nil, setTo = Angleur_TinyOptions.ultraFocusMaster, updating = false,
     },
 }
+print(ang.gameVersion)
 Angleur_TempCVarHandler = CreateFrame("Frame", "Example_CVarHandler", UIParent, "Legolando_TempCVarHandlerTemplate_Angleur")
 Angleur_TempCVarHandler.tempCVarsTable = Angleur_TempCVars
 Angleur_TempCVarHandler:Init()
@@ -595,11 +596,11 @@ end
 local helpTipCloseText = "|cnHIGHLIGHT_FONT_COLOR:The |r|cnNORMAL_FONT_COLOR:Interact Key|r|cnHIGHLIGHT_FONT_COLOR: allows you to interact with NPCs and objects using a keypress|n|n|r|cnRED_FONT_COLOR:Assign an Interact Key binding under Control options|r"
 function Angleur_EventLoader(self, event, unit, ...)
     local arg4, arg5 = ...
-    if event == "ADDON_LOADED" and unit == "Angleur" then
+    if event == "ADDON_LOADED" and unit == "AngleurTitan" then
         Init_AngleurSavedVariables()
         Angleur_SetTab1(self.configPanel.tab1.contents)
         Angleur_SetTab3(self.configPanel.tab3.contents)
-        self.visual.texture:SetTexture("Interface/AddOns/Angleur/imagesClassic/UI_Profession_Fishing")
+        self.visual.texture:SetTexture("Interface/Addons/AngleurTitan/imagesClassic/UI_Profession_Fishing")
     elseif event == "PLAYER_ENTERING_WORLD" then
         -- return if zone change
         if unit == false and arg4 == false then return end

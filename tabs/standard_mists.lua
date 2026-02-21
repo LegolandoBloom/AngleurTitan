@@ -134,7 +134,7 @@ function mistsStandardTab:ExtraButtons(tab1contents)
         pictureTooltip:AddLine(T["Due to a limitation in Classic, the \'soft interact system\' can sometimes fail to catch the bobber when it lands too far.(Demonstrated in the picture)" 
         .. "\n\nAngleur is designed to provide workarounds for this. Once enabled, please check out the options that appear below."], 1, 1, 1, true)
         pictureTooltip:Show()
-        pictureTooltip:PlaceTexture("Interface/AddOns/Angleur/imagesClassic/icontoofar.png", 128, 128, "TOPRIGHT")
+        pictureTooltip:PlaceTexture("Interface/Addons/AngleurTitan/imagesClassic/icontoofar.png", 128, 128, "TOPRIGHT")
     
     end)
     tab1contents.softInteract.text:SetScript("OnLeave", function()

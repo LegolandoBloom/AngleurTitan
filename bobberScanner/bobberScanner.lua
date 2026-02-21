@@ -119,9 +119,9 @@ end)
 local scannerArea = CreateFrame("Frame", "Angleur_ScannerArea", cameraFrame)
 scannerArea.texture = scannerArea:CreateTexture("Angleur_ScannerArea", "ARTWORK")
 scannerArea.texture:SetAllPoints(scannerArea)
-scannerArea.texture:SetTexture("Interface/Addons/Angleur/imagesClassic/scanarea.png")
+scannerArea.texture:SetTexture("Interface/Addons/AngleurTitan/imagesClassic/scanarea.png")
 scannerArea.offsetArrow = scannerArea:CreateTexture("Angleur_ScannerArea_OffsetArrow", "ARTWORK")
-scannerArea.offsetArrow:SetTexture("Interface/Addons/Angleur/imagesClassic/redarrow.png")
+scannerArea.offsetArrow:SetTexture("Interface/Addons/AngleurTitan/imagesClassic/redarrow.png")
 scannerArea.offsetArrow:SetPoint("BOTTOMLEFT", scannerArea, "TOPLEFT")
 scannerArea.offsetArrow.text = scannerArea:CreateFontString(nil, "ARTWORK", "SpellFont_Small")
 scannerArea.offsetArrow.text:SetPoint("LEFT", scannerArea.offsetArrow, "RIGHT", 0, -10)
@@ -226,10 +226,10 @@ elevationTitle:SetPoint("TOPLEFT", collapseConfig.popup, "TOPLEFT", 130, -50)
 elevationTitle:SetText(T["ELEVATION:"])
 
 local pngTable = {
-    [1] = "Interface/Addons/Angleur/imagesClassic/sameelevation.png",
-    [2] = "Interface/Addons/Angleur/imagesClassic/lowerelevation.png",
-    [3] = "Interface/Addons/Angleur/imagesClassic/insidewater.png",
-    [4] = "Interface/Addons/Angleur/imagesClassic/bothelevation.png",
+    [1] = "Interface/Addons/AngleurTitan/imagesClassic/sameelevation.png",
+    [2] = "Interface/Addons/AngleurTitan/imagesClassic/lowerelevation.png",
+    [3] = "Interface/Addons/AngleurTitan/imagesClassic/insidewater.png",
+    [4] = "Interface/Addons/AngleurTitan/imagesClassic/bothelevation.png",
 }
 local tooltipTable = {
     [1] = {title = T["Same Elevation"], text = T["Use this when you are on the same level as the water, or close to it."]},

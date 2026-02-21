@@ -179,7 +179,7 @@
                 </Scripts>
                 <Layers>
                     <Layer level="OVERLAY">
-                        <Texture name="$parent_Decoration" parentKey="decoration" file="Interface/AddOns/Angleur/images/angwithout.png" alpha="0.5">
+                        <Texture name="$parent_Decoration" parentKey="decoration" file="Interface/Addons/AngleurTitan/images/angwithout.png" alpha="0.5">
                             <Anchors>
                                 <Anchor point="CENTER" x="8" y="13"/>
                             </Anchors>
@@ -328,7 +328,7 @@
                                                 </Scripts>
                                                 <Layers>
                                                     <Layer level="ARTWORK">
-                                                        <Texture name="$parent_SelectedTexture" parentKey="selectedTexture" file="Interface/AddOns/Angleur/images/ExtraButtonWater.png" alpha="0.8">
+                                                        <Texture name="$parent_SelectedTexture" parentKey="selectedTexture" file="Interface/Addons/AngleurTitan/images/ExtraButtonWater.png" alpha="0.8">
                                                             <Size x="105" y="105"/>
                                                             <Anchors>
                                                                 <Anchor point="CENTER" relativeTo="$parent" relativePoint="CENTER" x="-1" y="2"/>
@@ -382,7 +382,7 @@
                                                 </Scripts>
                                                 <Layers>
                                                     <Layer level="ARTWORK">
-                                                        <Texture name="$parent_SelectedTexture" parentKey="selectedTexture" file="Interface/AddOns/Angleur/images/ExtraButtonWater.png" alpha="0.8">
+                                                        <Texture name="$parent_SelectedTexture" parentKey="selectedTexture" file="Interface/Addons/AngleurTitan/images/ExtraButtonWater.png" alpha="0.8">
                                                             <Size x="105" y="105"/>
                                                             <Anchors>
                                                                 <Anchor point="CENTER" relativeTo="$parent" relativePoint="CENTER" x="-1" y="2"/>
@@ -447,7 +447,7 @@
                                         </Scripts>
                                         <Layers>
                                             <Layer level="ARTWORK">
-                                                <Texture name="$parent_Texture" parentKey="texture" file="Interface/AddOns/Angleur/images/returnbuttonholder.png">
+                                                <Texture name="$parent_Texture" parentKey="texture" file="Interface/Addons/AngleurTitan/images/returnbuttonholder.png">
                                                     <Size x="52" y="52"/>
                                                     <Anchors>
                                                         <Anchor point="TOPRIGHT" relativeTo="$parent" relativePoint="TOPLEFT" y="0"/>
@@ -463,7 +463,7 @@
                                         </Anchors>
                                         <Layers>
                                             <Layer level="ARTWORK">
-                                                <Texture name="$parent_Logo" parentKey="logo" file="Interface/AddOns/Angleur/images/discord.png">
+                                                <Texture name="$parent_Logo" parentKey="logo" file="Interface/Addons/AngleurTitan/images/discord.png">
                                                     <Size x="16" y="16"/>
                                                     <Anchors>
                                                         <Anchor point="RIGHT" relativeTo="$parent" relativePoint="LEFT" x="-6" y="0"/>
@@ -614,7 +614,7 @@
                                         <Scripts>
                                             <OnLoad>
                                                 local problemsbackground = self:CreateTexture("$parent_Texture", "ARTWORK")
-                                                problemsbackground:SetTexture("Interface/AddOns/Angleur/images/extratoysproblems.png")
+                                                problemsbackground:SetTexture("Interface/Addons/AngleurTitan/images/extratoysproblems.png")
                                                 problemsbackground:SetPoint("CENTER")
                                                 problemsbackground:SetSize("250", "48")
 
@@ -698,7 +698,7 @@
                                                 </Anchors>
                                                 <Layers>
                                                     <Layer level="ARTWORK">
-                                                        <Texture name="$parent_Texture" parentKey="texture" file="Interface/AddOns/Angleur/images/returnbuttonholder.png">
+                                                        <Texture name="$parent_Texture" parentKey="texture" file="Interface/Addons/AngleurTitan/images/returnbuttonholder.png">
                                                             <Size x="65" y="65"/>
                                                             <Anchors>
                                                                 <Anchor point="CENTER" relativeTo="$parent" relativePoint="CENTER" x="0" y="0"/>
@@ -772,7 +772,7 @@
                         </Scripts>
                         <Layers>
                             <Layer level="ARTWORK">
-                                <Texture name="$parent_Lego" parentKey="lego" file="Interface/AddOns/Angleur/images/legosleep.png">
+                                <Texture name="$parent_Lego" parentKey="lego" file="Interface/Addons/AngleurTitan/images/legosleep.png">
                                     <Size x="48" y="48"/>
                                     <Anchors>
                                         <Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT" x="-5" y="0"/>
@@ -820,7 +820,7 @@
         </Anchors>
         <Layers>
             <Layer level="ARTWORK">
-                <Texture name="$parent_DefaultTexture" parentKey="defaultTexture" file="Interface/Addons/Angleur/images/armorequipyellowplus.png">
+                <Texture name="$parent_DefaultTexture" parentKey="defaultTexture" file="Interface/Addons/AngleurTitan/images/armorequipyellowplus.png">
                     <Size x="72" y="72"/>
                     <Anchors>
                         <Anchor point="BOTTOMRIGHT" relativeTo="$parent" relativePoint="BOTTOMRIGHT" x="0" y="8"/>
@@ -832,7 +832,7 @@
                         <Anchor point="BOTTOMRIGHT" relativeTo="$parent" relativePoint="BOTTOMRIGHT" x="-25" y="0"/>
                     </Anchors>
                 </FontString>
-                <Texture name="$parent_CheckedTexture" parentKey="checkedTexture" file="Interface/Addons/Angleur/images/armorequipgreencheck.png" hidden="true">
+                <Texture name="$parent_CheckedTexture" parentKey="checkedTexture" file="Interface/Addons/AngleurTitan/images/armorequipgreencheck.png" hidden="true">
                     <Size x="72" y="72"/>
                     <Anchors>
                         <Anchor point="BOTTOMRIGHT" relativeTo="$parent" relativePoint="BOTTOMRIGHT" x="0" y="8"/>
@@ -905,10 +905,10 @@
         <Size x="100" y="100"/>
         <Layers>
             <Layer level="OVERLAY">
-                <Texture name="$parent_Texture" parentKey="texture" file="Interface/AddOns/Angleur/images/croppedblue.png" hidden="false">
+                <Texture name="$parent_Texture" parentKey="texture" file="Interface/Addons/AngleurTitan/images/croppedblue.png" hidden="false">
                     <Size x="512" y="512"/>
                 </Texture>
-                <Texture name="$parent_TextBackground" parentKey="textBackground" file="Interface/AddOns/Angleur/images/croppedtextbackground.png" hidden="false">
+                <Texture name="$parent_TextBackground" parentKey="textBackground" file="Interface/Addons/AngleurTitan/images/croppedtextbackground.png" hidden="false">
                     <Size x="475" y="60"/>
                 </Texture>
                 <FontString name="$parent_Text" parentKey="text" inherits= "Game20Font" height="100" hidden="false">
@@ -937,7 +937,7 @@
                         <Anchor point="TOP" x="0" y="-170"/>
                     </Anchors>
                 </FontString>
-                <Texture name="$parent_Texture" parentKey="texture" file="Interface/AddOns/Angleur/images/platerinteractionangleur.png">
+                <Texture name="$parent_Texture" parentKey="texture" file="Interface/Addons/AngleurTitan/images/platerinteractionangleur.png">
                     <Size x="390" y="195"/>
                     <Anchors>
                         <Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT" x="6" y="-25"/>
@@ -987,7 +987,7 @@
         </Anchors>
         <Layers>
             <Layer level="ARTWORK">
-                <Texture name="AngleurClassic_TooFarTexture" parentKey="tooFarTexture" file="Interface/Addons/Angleur/imagesClassic/icontoofar.png" hidden="false" alpha="0.5">
+                <Texture name="AngleurClassic_TooFarTexture" parentKey="tooFarTexture" file="Interface/Addons/AngleurTitan/imagesClassic/icontoofar.png" hidden="false" alpha="0.5">
                     <Size x="128" y="128"/>
                     <Anchors>
                         <Anchor point="CENTER"/>
