@@ -409,10 +409,10 @@ end
 local function performAction(self, assignKey, action, recast, oobIcon, gPad)
     if action == "cast" then
         SetOverrideBindingSpell_Custom(self, true, assignKey, PROFESSIONS_FISHING)
-        self.visual.texture:SetTexture("Interface/AddOns/Angleur/imagesClassic/UI_Profession_Fishing")
+        self.visual.texture:SetTexture("Interface/AddOns/AngleurTitan/imagesClassic/UI_Profession_Fishing")
     elseif action == "reel" then
         SetOverrideBinding_Custom(self, true, assignKey, "INTERACTMOUSEOVER")
-        self.visual.texture:SetTexture("Interface/AddOns/Angleur/imagesClassic/misc_arrowlup")
+        self.visual.texture:SetTexture("Interface/AddOns/AngleurTitan/imagesClassic/misc_arrowlup")
     elseif action == "clear" then
         ClearOverrideBindings(self)
         self.visual.texture:SetTexture("")
@@ -690,7 +690,7 @@ function Angleur_SetSleep()
     if AngleurCharacter.sleeping == true then
         --no need to do combat delay, angleur clears override bindings when entering combat anyway
         if not InCombatLockdown() then ClearOverrideBindings(Angleur) end
-        Angleur.visual.texture:SetTexture("Interface/AddOns/Angleur/imagesClassic/UI_Profession_Fishing")
+        Angleur.visual.texture:SetTexture("Interface/AddOns/AngleurTitan/imagesClassic/UI_Profession_Fishing")
         Angleur.visual.texture:SetDesaturated(true)
         Angleur.configPanel.tab1:DesaturateHierarchy(1)
         Angleur.configPanel.tab2:DesaturateHierarchy(1)

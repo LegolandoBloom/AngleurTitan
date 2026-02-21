@@ -8,7 +8,7 @@ function Angleur_InitMinimapButton()
     local mapData = LibStub("LibDataBroker-1.1"):NewDataObject("AngleurMap", {  
         type = "launcher",  
         text = "Angleur!",
-        icon = "Interface\\AddOns\\Angleur\\images\\angminimap.png",
+        icon = "Interface\\Addons\\AngleurTitan\\images\\angminimap.png",
         OnClick = function(self, b) 
             if b == "RightButton" then
                 if InCombatLockdown() then

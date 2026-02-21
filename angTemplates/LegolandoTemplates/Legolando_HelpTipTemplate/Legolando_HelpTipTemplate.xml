@@ -44,7 +44,7 @@
         <Size x="226" y="10"/>
         <Layers>
             <Layer level="OVERLAY">
-                <Texture name="$parent_FeatureHighlight" parentKey="featureHighlight" file="Interface/AddOns/Angleur/angTemplates/LegolandoTemplates/Legolando_HelpTipTemplate/ListButtons-glowy.png" hidden="true"/>
+                <Texture name="$parent_FeatureHighlight" parentKey="featureHighlight" file="Interface/AddOns/AngleurTitan/angTemplates/LegolandoTemplates/Legolando_HelpTipTemplate/ListButtons-glowy.png" hidden="true"/>
                 <FontString parentKey="Text" inherits="GameFontHighlightLeft" justifyH="LEFT" justifyV="TOP">
                     <Size x="196" y="0"/>
                 </FontString>

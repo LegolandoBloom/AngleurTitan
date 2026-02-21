@@ -124,7 +124,7 @@
                 </KeyValues>
                 <Scripts>
                     <OnLoad>
-                        self.icon:SetTexture("Interface/AddOns/Angleur/images/timeIcon.png")
+                        self.icon:SetTexture("Interface/AddOns/AngleurTitan/images/timeIcon.png")
                         self.icon:SetTexCoord(0, 1, 0, 1)
                         self.icon:SetSize(26, 26)
                         self.icon:Show()

@@ -599,7 +599,7 @@ function Angleur_EventLoader(self, event, unit, ...)
         Init_AngleurSavedVariables()
         Angleur_SetTab1(self.configPanel.tab1.contents)
         Angleur_SetTab3(self.configPanel.tab3.contents)
-        self.visual.texture:SetTexture("Interface/AddOns/Angleur/imagesClassic/UI_Profession_Fishing")
+        self.visual.texture:SetTexture("Interface/AddOns/AngleurTitan/imagesClassic/UI_Profession_Fishing")
     elseif event == "PLAYER_ENTERING_WORLD" then
         -- return if zone change
         if unit == false and arg4 == false then return end

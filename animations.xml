@@ -3,7 +3,7 @@
     <Frame name="Angleur_SleepAnimTemplate" virtual="true">
         <Layers>
             <Layer level="ARTWORK">
-                <Texture name="$parent_Texture" parentKey="texture" file="Interface/AddOns/Angleur/images/sleep animation/full.png">
+                <Texture name="$parent_Texture" parentKey="texture" file="Interface/AddOns/AngleurTitan/images/sleep animation/full.png">
                     <Size x="64" y="64"/>
                     <Anchors>
                         <Anchor point="CENTER"/>

@@ -5,7 +5,7 @@
 ## Author: LegolandoBloom
 ## SavedVariables: AngleurConfig, Angleur_TinyOptions, AngleurMinimapButton, AngleurTutorial, AngleurClassicConfig, AngleurBobberScannerUI
 ## SavedVariablesPerCharacter: AngleurCharacter, Angleur_SlottedExtraToys, Angleur_SlottedExtraItems, Angleur_SwapoutItemsSaved, Angleur_CVars, AngleurClassic_CVars
-## IconTexture: Interface\AddOns\Angleur\images\angleuriconsmall
+## IconTexture: Interface\Addons\AngleurTitan\images\angleuriconsmall
 ## X-Curse-Project-ID: 1467398
 
 ## Category-enUS: Professions
